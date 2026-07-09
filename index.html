@@ -35,14 +35,17 @@
   <!-- ================= MAGYAR ================= -->
   <section id="hu">
     <h1>Adatvédelmi szabályzat</h1>
-    <p class="muted">My Budget Book alkalmazás · Hatályos: 2026. június 14.</p>
+    <p class="muted">My Budget Book alkalmazás · Hatályos: 2026. július 9.</p>
 
     <h2>Összefoglaló</h2>
     <p>
-      A <strong>My Budget Book</strong> egy offline költségvetés-követő alkalmazás.
-      <strong>Nem gyűjtünk, nem tárolunk és nem továbbítunk</strong> semmilyen
-      személyes adatot szervereken. Minden adatod kizárólag a saját eszközödön
-      marad. Nincs felhasználói fiók, nincs bejelentkezés, nincs analitika, nincs reklám.
+      A <strong>My Budget Book</strong> egy költségvetés-követő alkalmazás. Az általad
+      bevitt pénzügyi adatok <strong>alapesetben kizárólag a saját eszközödön</strong>
+      maradnak — nincs felhasználói fiók, nincs bejelentkezés, nincs analitika, nincs
+      reklám. Egyetlen kivétel az <strong>opcionális AI-funkciók</strong>
+      (nyugta-szkennelés, természetes nyelvű bevitel, havi elemzés): ha ezeket
+      használod, a feldolgozáshoz szükséges adatot titkosított kapcsolaton egy külső
+      AI-szolgáltatónak küldjük — lásd az „Adattovábbítás harmadik félnek" szakaszt.
     </p>
 
     <h2>Milyen adatokat kezel az app?</h2>
@@ -71,8 +74,22 @@
     </ul>
 
     <h2>Adattovábbítás harmadik félnek</h2>
-    <p>Nincs. Az alkalmazás nem oszt meg adatot harmadik féllel, és nem használ
-       külső analitikai vagy reklám-szolgáltatást.</p>
+    <p>Az alap alkalmazás nem oszt meg adatot harmadik féllel, és nem használ
+       analitikai vagy reklám-szolgáltatást. <strong>Kivétel az opcionális
+       AI-funkciók.</strong> Ha ezeket használod, a következő adatokat titkosított
+       (HTTPS) kapcsolaton, egy közvetítő szerveren keresztül elküldjük az
+       <strong>Anthropic (Claude)</strong> AI-szolgáltatásnak feldolgozásra:</p>
+    <ul>
+      <li><strong>Nyugta-szkennelés:</strong> a lefotózott nyugta képe;</li>
+      <li><strong>Természetes nyelvű bevitel:</strong> az általad beírt szöveg;</li>
+      <li><strong>Havi elemzés:</strong> a havi pénzügyi összesítő.</li>
+    </ul>
+    <p>Ez kizárólag akkor történik, ha te magad indítod az adott AI-funkciót. A
+       közvetítő szerverünk nem tárolja az adatot; az Anthropic az API-adatokat a
+       saját szabályzata szerint korlátozott ideig (jellemzően legfeljebb ~30 nap)
+       megőrizheti visszaélés-figyelés céljából, és nem használja őket
+       modell-tanításra. Semmilyen adatot nem továbbítunk reklám vagy analitika
+       céljából.</p>
 
     <h2>Adatmegőrzés és törlés</h2>
     <p>
@@ -98,14 +115,17 @@
   <!-- ================= ENGLISH ================= -->
   <section id="en">
     <h1>Privacy Policy</h1>
-    <p class="muted">My Budget Book app · Effective: June 14, 2026</p>
+    <p class="muted">My Budget Book app · Effective: July 9, 2026</p>
 
     <h2>Summary</h2>
     <p>
-      <strong>My Budget Book</strong> is an offline budget-tracking app. We
-      <strong>do not collect, store, or transmit</strong> any personal data to
-      servers. All your data stays solely on your own device. There is no account,
-      no sign-in, no analytics, and no ads.
+      <strong>My Budget Book</strong> is a budget-tracking app. The financial data
+      you enter <strong>stays solely on your own device by default</strong> — there
+      is no account, no sign-in, no analytics, and no ads. The only exception is the
+      <strong>optional AI features</strong> (receipt scanning, natural-language entry,
+      monthly analysis): if you use them, the data needed for processing is sent over
+      an encrypted connection to a third-party AI provider — see "Sharing with third
+      parties" below.
     </p>
 
     <h2>What data does the app handle?</h2>
@@ -131,8 +151,21 @@
     </ul>
 
     <h2>Sharing with third parties</h2>
-    <p>None. The app shares no data with third parties and uses no external
-       analytics or advertising services.</p>
+    <p>The core app shares no data with third parties and uses no analytics or
+       advertising services. <strong>The exception is the optional AI features.</strong>
+       If you use them, the following data is sent over an encrypted (HTTPS)
+       connection, through a relay server, to the <strong>Anthropic (Claude)</strong>
+       AI service for processing:</p>
+    <ul>
+      <li><strong>Receipt scanning:</strong> the photo of the receipt you capture;</li>
+      <li><strong>Natural-language entry:</strong> the text you type;</li>
+      <li><strong>Monthly analysis:</strong> your monthly financial summary.</li>
+    </ul>
+    <p>This happens only when you actively start the given AI feature. Our relay
+       server does not store the data; Anthropic may retain API data for a limited
+       time (typically up to ~30 days) for abuse monitoring per its own policy and
+       does not use it for model training. We do not transmit any data for advertising
+       or analytics.</p>
 
     <h2>Data retention and deletion</h2>
     <p>
